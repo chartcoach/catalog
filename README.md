@@ -1,6 +1,6 @@
 # ChartCoach Guideline Catalog
 
-This repository hosts the ChartCoach Guideline Catalog: a source-traced collection of visualization design guidelines with stable ids, section roles, labels, and references. You can browse them at [`chartcoach.github.io/guidelines`](https://chartcoach.github.io/guidelines).
+This repository hosts the ChartCoach Guideline Catalog: a source-traced collection of visualization design guidelines with stable ids, section roles, labels, and references. You can browse them at [chartcoach.github.io/guidelines](https://chartcoach.github.io/guidelines).
 
 The catalog is an evolving shared resource. Friction in one person's critique, recommendation, teaching, or consultation workflow can reveal improvements that help the wider community: missing topics, clearer wording, better labels, duplicate review, or sources that need checking.
 
