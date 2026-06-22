@@ -1,24 +1,29 @@
-# ChartCoach Guideline Catalog
+<p align="center">
+  <img src="https://chartcoach.dev/brand/chartcoach-square-light.svg" width="128" alt="chartcoach logo">
+</p>
 
-This repository hosts the ChartCoach Guideline Catalog: a source-traced collection of visualization design guidelines with stable ids, section roles, labels, and references. You can browse them at [chartcoach.github.io/guidelines](https://chartcoach.github.io/guidelines).
+# chartcoach Guideline Catalog
 
-The catalog is an evolving shared resource. Friction in one person's critique, recommendation, teaching, or consultation workflow can reveal improvements that help the wider community: missing topics, clearer wording, better labels, duplicate review, or sources that need checking.
+Human and agent-friendly visualization design guidelines for better chart
+decisions.
 
-Use GitHub issues to propose catalog changes. The issue templates cover missing guidelines, improvements to existing records, and broader catalog curation. If an agent drafted an issue through ChartCoach, review the draft before posting and remove private data, local paths, screenshots, or session artifacts unless you intend to share them.
+Browse the catalog at [chartcoach.dev/guidelines](https://chartcoach.dev/guidelines/).
+Read more in the [catalog docs](https://docs.chartcoach.dev/catalog).
 
-For the CLI, packages, site, agent skills, and implementation details, see [`chartcoach/chartcoach`](https://github.com/chartcoach/chartcoach).
+This repository is for improving the catalog itself. Open an issue when a
+guideline is missing, unclear, duplicated, or needs a source check.
 
-## Repository Shape
+## Repository
 
-- `MANIFEST.md` defines section roles and label families in this catalog.
-- `entries/<guideline-id>/guideline.md` contains an authored guideline record.
-- `entries/<guideline-id>/references.bib` contains the source references for that record.
+- Visualization design guidelines live in `entries/`.
+- `MANIFEST.md` keeps the catalog organization in one place.
 
 ## Issue Checklist
 
 Before opening an issue:
 
-- Name the concrete chart, task, audience, data setting, or retrieval workflow.
-- Link verified guideline ids when the issue touches existing records.
-- Explain why the problem appears to be catalog content or curation rather than tooling.
+- Name the chart, task, audience, data setting, or retrieval workflow.
+- Link the affected guideline when the issue touches an existing entry.
+- Explain why the issue belongs in catalog content or curation.
 - Remove private or unpublished material unless you intentionally attach it.
+- Review agent-drafted issues before posting them.
