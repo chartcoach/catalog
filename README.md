@@ -9,6 +9,8 @@ decisions.
 
 Browse the catalog at [chartcoach.dev/guidelines](https://chartcoach.dev/guidelines/).
 Read more in the [catalog docs](https://docs.chartcoach.dev/catalog).
+Equip agents with this visualization design knowledge through
+[chartcoach/skills](https://github.com/chartcoach/skills).
 
 This repository is for improving the catalog itself. Open an issue when a
 guideline is missing, unclear, duplicated, or needs a source check.
